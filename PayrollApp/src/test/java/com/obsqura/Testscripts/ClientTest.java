@@ -7,6 +7,7 @@ import java.util.Date;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.obsqura.pages.PayrollLogin;
@@ -16,7 +17,7 @@ import com.obsqura.pages.ClientView;
 import com.obsqura.pages.PayrollCreateClient;
 import com.obsqura.pages.PayrollHome;
 
-
+@Listeners(ExtentReportUtil.class)
 public class ClientTest extends TestHelper {
 	String timeStamp =new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss").format(new Date());
 	PayrollLogin loginobj;
