@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Deleted Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by WorkerName ]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by Postcode]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by NI Number]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Reset Name Textbox Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by WorkerName ]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by Worker NINumber ]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by Worker POSTCODE ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78336" started-at="2022-11-27T18:28:15Z" finished-at="2022-11-27T18:29:33Z">
+    <groups>
+    </groups>
+    <test name="chromebrowser" duration-ms="78336" started-at="2022-11-27T18:28:15Z" finished-at="2022-11-27T18:29:33Z">
+      <class name="com.obsqura.Testscripts.WorkerTest">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="6574" started-at="2022-11-27T18:28:16Z" finished-at="2022-11-27T18:28:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyworkerDeletion()[pri:2, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyworkerDeletion" duration-ms="4594" started-at="2022-11-27T18:28:22Z" finished-at="2022-11-27T18:28:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Deleted Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyworkerDeletion -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="323" started-at="2022-11-27T18:28:27Z" finished-at="2022-11-27T18:28:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyworkerDeletion status=SUCCESS method=WorkerTest.verifyworkerDeletion()[pri:2, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="3820" started-at="2022-11-27T18:28:27Z" finished-at="2022-11-27T18:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWorkerSearchByFName()[pri:3, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByFName" duration-ms="5104" started-at="2022-11-27T18:28:31Z" finished-at="2022-11-27T18:28:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by WorkerName ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerSearchByFName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="138" started-at="2022-11-27T18:28:36Z" finished-at="2022-11-27T18:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerSearchByFName status=SUCCESS method=WorkerTest.verifyWorkerSearchByFName()[pri:3, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4341" started-at="2022-11-27T18:28:36Z" finished-at="2022-11-27T18:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWorkerSearchBypost()[pri:4, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchBypost" duration-ms="5042" started-at="2022-11-27T18:28:40Z" finished-at="2022-11-27T18:28:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by Postcode]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerSearchBypost -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="146" started-at="2022-11-27T18:28:46Z" finished-at="2022-11-27T18:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerSearchBypost status=SUCCESS method=WorkerTest.verifyWorkerSearchBypost()[pri:4, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4569" started-at="2022-11-27T18:28:46Z" finished-at="2022-11-27T18:28:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWorkerSearchByNINumber()[pri:5, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByNINumber" duration-ms="6316" started-at="2022-11-27T18:28:50Z" finished-at="2022-11-27T18:28:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by NI Number]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerSearchByNINumber -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="118" started-at="2022-11-27T18:28:57Z" finished-at="2022-11-27T18:28:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerSearchByNINumber status=SUCCESS method=WorkerTest.verifyWorkerSearchByNINumber()[pri:5, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4622" started-at="2022-11-27T18:28:57Z" finished-at="2022-11-27T18:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWorkerResetwithName()[pri:6, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerResetwithName" duration-ms="3993" started-at="2022-11-27T18:29:01Z" finished-at="2022-11-27T18:29:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Reset Name Textbox Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerResetwithName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="177" started-at="2022-11-27T18:29:05Z" finished-at="2022-11-27T18:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerResetwithName status=SUCCESS method=WorkerTest.verifyWorkerResetwithName()[pri:6, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4979" started-at="2022-11-27T18:29:05Z" finished-at="2022-11-27T18:29:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWorkerSearchByInvalidFName()[pri:7, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByInvalidFName" duration-ms="5026" started-at="2022-11-27T18:29:10Z" finished-at="2022-11-27T18:29:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by WorkerName ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerSearchByInvalidFName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="131" started-at="2022-11-27T18:29:16Z" finished-at="2022-11-27T18:29:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerSearchByInvalidFName status=SUCCESS method=WorkerTest.verifyWorkerSearchByInvalidFName()[pri:7, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="3726" started-at="2022-11-27T18:29:16Z" finished-at="2022-11-27T18:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWorkerSearchByInvalidNInumber()[pri:8, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByInvalidNInumber" duration-ms="5019" started-at="2022-11-27T18:29:19Z" finished-at="2022-11-27T18:29:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by Worker NINumber ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerSearchByInvalidNInumber -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="144" started-at="2022-11-27T18:29:24Z" finished-at="2022-11-27T18:29:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerSearchByInvalidNInumber status=SUCCESS method=WorkerTest.verifyWorkerSearchByInvalidNInumber()[pri:8, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="3674" started-at="2022-11-27T18:29:25Z" finished-at="2022-11-27T18:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWorkerSearchByinvalidpostcode()[pri:9, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByinvalidpostcode" duration-ms="5018" started-at="2022-11-27T18:29:28Z" finished-at="2022-11-27T18:29:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by Worker POSTCODE ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerSearchByinvalidpostcode -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="138" started-at="2022-11-27T18:29:33Z" finished-at="2022-11-27T18:29:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerSearchByinvalidpostcode status=SUCCESS method=WorkerTest.verifyWorkerSearchByinvalidpostcode()[pri:9, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.Testscripts.WorkerTest -->
+    </test> <!-- chromebrowser -->
+  </suite> <!-- Suite -->
+</testng-results>

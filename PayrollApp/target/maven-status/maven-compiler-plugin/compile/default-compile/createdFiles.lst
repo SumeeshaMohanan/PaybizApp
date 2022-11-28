@@ -1,0 +1,15 @@
+com\obsqura\pages\PayrollCreateClient.class
+com\obsqura\pages\PayrollLogin.class
+com\obsqura\utilities\ExcelUtility.class
+com\obsqura\utilities\PageUtility.class
+com\obsqura\pages\LogOut.class
+com\obsqura\pages\ClientView.class
+com\obsqura\utilities\DateUtility.class
+com\obsqura\utilities\ExcelDataProvider.class
+com\obsqura\utilities\WaitUtility.class
+com\obsqura\pages\WorkerBankhome.class
+com\obsqura\pages\PayrollCreateWorker.class
+com\obsqura\pages\PayrollAddDeduction.class
+com\obsqura\pages\PayrollHome.class
+com\obsqura\utilities\GenericUtility.class
+com\obsqura\pages\WorkerBankDetails.class
