@@ -17,7 +17,7 @@ import com.obsqura.pages.ClientView;
 import com.obsqura.pages.PayrollCreateClient;
 import com.obsqura.pages.PayrollHome;
 
-@Listeners(ExtentReportUtil.class)
+
 public class ClientTest extends TestHelper {
 	String timeStamp =new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss").format(new Date());
 	PayrollLogin loginobj;

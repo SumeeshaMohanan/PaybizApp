@@ -23,7 +23,8 @@ public class ExtentReportUtil implements ITestListener {
 	ExtentSparkReporter spark;
 
 	public void onTestStart(ITestResult Result) {
-		extent.createTest("MyFirstTest").log(Status.PASS, "This is a logging event for "+Result.getName()+", and it passed!");
+		System.out.println(Result.getName()+", is Started");
+		//extent.createTest("MyFirstTest").log(Status.PASS, "This is a logging event for "+Result.getName()+", and it passed!");
 
 	}
 	public void onFinish(ITestContext Result) {
@@ -41,7 +42,7 @@ public class ExtentReportUtil implements ITestListener {
     		spark=new ExtentSparkReporter(System.getProperty("user.dir")+"//ExtentReport//"+"ExtentReport_"+timeStamp);
             extent = new ExtentReports();
             extent.attachReporter(spark);
-            extent.createTest("MyFirstTest").log(Status.PASS, "This is a logging event for MyFirstTest, and it passed!");
+           // extent.createTest("from reports"+Result.getName()).log(Status.PASS, "The name of the testcase passed is: "+Result.getName());
            
         } catch (Exception e) {
             e.printStackTrace();

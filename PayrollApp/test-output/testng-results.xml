@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="30" passed="30">
   <reporter-output>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Deduction Created Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to client Page]]>
+    </line>
+    <line>
+      <![CDATA[client created Succesfully]]>
+    </line>
     <line>
       <![CDATA[Login Success]]>
     </line>
@@ -11,13 +29,43 @@
       <![CDATA[Login Success]]>
     </line>
     <line>
+      <![CDATA[Logout Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by name]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
       <![CDATA[Searched Succesfully by WorkerName ]]>
+    </line>
+    <line>
+      <![CDATA[Reset Password Link Navigated Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by number]]>
     </line>
     <line>
       <![CDATA[Login Success]]>
     </line>
     <line>
       <![CDATA[Searched Succesfully by Postcode]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by Name & number]]>
     </line>
     <line>
       <![CDATA[Login Success]]>
@@ -29,13 +77,43 @@
       <![CDATA[Login Success]]>
     </line>
     <line>
+      <![CDATA[Payslip Generated Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Name Reset Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
       <![CDATA[Reset Name Textbox Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Reset Password Cancelled Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Client Number Reset Succesfully]]>
     </line>
     <line>
       <![CDATA[Login Success]]>
     </line>
     <line>
       <![CDATA[Searched Succesfully by WorkerName ]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Searched Succesfully by number]]>
     </line>
     <line>
       <![CDATA[Login Success]]>
@@ -47,15 +125,57 @@
       <![CDATA[Login Success]]>
     </line>
     <line>
+      <![CDATA[Navigated to Invoice Page Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Validation Message Shows Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
       <![CDATA[Searched Succesfully by Worker POSTCODE ]]>
     </line>
+    <line>
+      <![CDATA[Validation SHows Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard Menu Working Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Invoice Page Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logo Is present in resetPage]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Logo Is present in Home Page]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="78336" started-at="2022-11-27T18:28:15Z" finished-at="2022-11-27T18:29:33Z">
+  <suite name="Suite" duration-ms="242707" started-at="2022-11-29T11:50:06Z" finished-at="2022-11-29T11:54:09Z">
     <groups>
+      <group name="regression">
+        <method signature="ClientTest.verifyClientCreation()[pri:1, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyClientCreation" class="com.obsqura.Testscripts.ClientTest"/>
+        <method signature="HomepageTest.VerifyLogout()[pri:2, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="VerifyLogout" class="com.obsqura.Testscripts.HomepageTest"/>
+        <method signature="HomepageTest.verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyValidLogin" class="com.obsqura.Testscripts.HomepageTest"/>
+        <method signature="HomepageTest.verifycreateDeduction()[pri:1, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifycreateDeduction" class="com.obsqura.Testscripts.HomepageTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="chromebrowser" duration-ms="78336" started-at="2022-11-27T18:28:15Z" finished-at="2022-11-27T18:29:33Z">
+    <test name="Test" duration-ms="242707" started-at="2022-11-29T11:50:06Z" finished-at="2022-11-29T11:54:09Z">
       <class name="com.obsqura.Testscripts.WorkerTest">
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="6574" started-at="2022-11-27T18:28:16Z" finished-at="2022-11-27T18:28:22Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="3646" started-at="2022-11-29T11:50:52Z" finished-at="2022-11-29T11:50:56Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +186,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyworkerDeletion()[pri:2, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyworkerDeletion" duration-ms="4594" started-at="2022-11-27T18:28:22Z" finished-at="2022-11-27T18:28:27Z">
+        <test-method status="PASS" signature="verifyworkerDeletion()[pri:1, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyworkerDeletion" duration-ms="4730" started-at="2022-11-29T11:50:56Z" finished-at="2022-11-29T11:51:00Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -76,18 +196,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyworkerDeletion -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="323" started-at="2022-11-27T18:28:27Z" finished-at="2022-11-27T18:28:27Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="153" started-at="2022-11-29T11:51:00Z" finished-at="2022-11-29T11:51:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyworkerDeletion status=SUCCESS method=WorkerTest.verifyworkerDeletion()[pri:2, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyworkerDeletion status=SUCCESS method=WorkerTest.verifyworkerDeletion()[pri:1, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="3820" started-at="2022-11-27T18:28:27Z" finished-at="2022-11-27T18:28:31Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="3603" started-at="2022-11-29T11:51:16Z" finished-at="2022-11-29T11:51:19Z">
           <params>
             <param index="0">
               <value>
@@ -98,7 +218,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyWorkerSearchByFName()[pri:3, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByFName" duration-ms="5104" started-at="2022-11-27T18:28:31Z" finished-at="2022-11-27T18:28:36Z">
+        <test-method status="PASS" signature="verifyWorkerSearchByFName()[pri:2, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyWorkerSearchByFName" duration-ms="5432" started-at="2022-11-29T11:51:19Z" finished-at="2022-11-29T11:51:25Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -108,18 +228,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWorkerSearchByFName -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="138" started-at="2022-11-27T18:28:36Z" finished-at="2022-11-27T18:28:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="94" started-at="2022-11-29T11:51:25Z" finished-at="2022-11-29T11:51:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWorkerSearchByFName status=SUCCESS method=WorkerTest.verifyWorkerSearchByFName()[pri:3, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyWorkerSearchByFName status=SUCCESS method=WorkerTest.verifyWorkerSearchByFName()[pri:2, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4341" started-at="2022-11-27T18:28:36Z" finished-at="2022-11-27T18:28:40Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="4618" started-at="2022-11-29T11:51:38Z" finished-at="2022-11-29T11:51:42Z">
           <params>
             <param index="0">
               <value>
@@ -130,7 +250,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyWorkerSearchBypost()[pri:4, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchBypost" duration-ms="5042" started-at="2022-11-27T18:28:40Z" finished-at="2022-11-27T18:28:46Z">
+        <test-method status="PASS" signature="verifyWorkerSearchBypost()[pri:3, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyWorkerSearchBypost" duration-ms="5653" started-at="2022-11-29T11:51:42Z" finished-at="2022-11-29T11:51:48Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -140,18 +260,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWorkerSearchBypost -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="146" started-at="2022-11-27T18:28:46Z" finished-at="2022-11-27T18:28:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="91" started-at="2022-11-29T11:51:48Z" finished-at="2022-11-29T11:51:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWorkerSearchBypost status=SUCCESS method=WorkerTest.verifyWorkerSearchBypost()[pri:4, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyWorkerSearchBypost status=SUCCESS method=WorkerTest.verifyWorkerSearchBypost()[pri:3, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4569" started-at="2022-11-27T18:28:46Z" finished-at="2022-11-27T18:28:50Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="3539" started-at="2022-11-29T11:52:02Z" finished-at="2022-11-29T11:52:05Z">
           <params>
             <param index="0">
               <value>
@@ -162,7 +282,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyWorkerSearchByNINumber()[pri:5, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByNINumber" duration-ms="6316" started-at="2022-11-27T18:28:50Z" finished-at="2022-11-27T18:28:57Z">
+        <test-method status="PASS" signature="verifyWorkerSearchByNINumber()[pri:4, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyWorkerSearchByNINumber" duration-ms="4845" started-at="2022-11-29T11:52:05Z" finished-at="2022-11-29T11:52:10Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -172,18 +292,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWorkerSearchByNINumber -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="118" started-at="2022-11-27T18:28:57Z" finished-at="2022-11-27T18:28:57Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="152" started-at="2022-11-29T11:52:10Z" finished-at="2022-11-29T11:52:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWorkerSearchByNINumber status=SUCCESS method=WorkerTest.verifyWorkerSearchByNINumber()[pri:5, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyWorkerSearchByNINumber status=SUCCESS method=WorkerTest.verifyWorkerSearchByNINumber()[pri:4, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4622" started-at="2022-11-27T18:28:57Z" finished-at="2022-11-27T18:29:01Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="3519" started-at="2022-11-29T11:52:24Z" finished-at="2022-11-29T11:52:28Z">
           <params>
             <param index="0">
               <value>
@@ -194,7 +314,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyWorkerResetwithName()[pri:6, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerResetwithName" duration-ms="3993" started-at="2022-11-27T18:29:01Z" finished-at="2022-11-27T18:29:05Z">
+        <test-method status="PASS" signature="verifyWorkerResetwithName()[pri:5, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyWorkerResetwithName" duration-ms="3317" started-at="2022-11-29T11:52:28Z" finished-at="2022-11-29T11:52:31Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -204,18 +324,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWorkerResetwithName -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="177" started-at="2022-11-27T18:29:05Z" finished-at="2022-11-27T18:29:05Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="127" started-at="2022-11-29T11:52:31Z" finished-at="2022-11-29T11:52:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWorkerResetwithName status=SUCCESS method=WorkerTest.verifyWorkerResetwithName()[pri:6, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyWorkerResetwithName status=SUCCESS method=WorkerTest.verifyWorkerResetwithName()[pri:5, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="4979" started-at="2022-11-27T18:29:05Z" finished-at="2022-11-27T18:29:10Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="3589" started-at="2022-11-29T11:52:43Z" finished-at="2022-11-29T11:52:47Z">
           <params>
             <param index="0">
               <value>
@@ -226,7 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyWorkerSearchByInvalidFName()[pri:7, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByInvalidFName" duration-ms="5026" started-at="2022-11-27T18:29:10Z" finished-at="2022-11-27T18:29:16Z">
+        <test-method status="PASS" signature="verifyWorkerSearchByInvalidFName()[pri:6, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyWorkerSearchByInvalidFName" duration-ms="4795" started-at="2022-11-29T11:52:47Z" finished-at="2022-11-29T11:52:52Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -236,18 +356,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWorkerSearchByInvalidFName -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="131" started-at="2022-11-27T18:29:16Z" finished-at="2022-11-27T18:29:16Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="152" started-at="2022-11-29T11:52:52Z" finished-at="2022-11-29T11:52:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWorkerSearchByInvalidFName status=SUCCESS method=WorkerTest.verifyWorkerSearchByInvalidFName()[pri:7, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyWorkerSearchByInvalidFName status=SUCCESS method=WorkerTest.verifyWorkerSearchByInvalidFName()[pri:6, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="3726" started-at="2022-11-27T18:29:16Z" finished-at="2022-11-27T18:29:19Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="4445" started-at="2022-11-29T11:53:05Z" finished-at="2022-11-29T11:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -258,7 +378,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyWorkerSearchByInvalidNInumber()[pri:8, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByInvalidNInumber" duration-ms="5019" started-at="2022-11-27T18:29:19Z" finished-at="2022-11-27T18:29:24Z">
+        <test-method status="PASS" signature="verifyWorkerSearchByInvalidNInumber()[pri:7, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyWorkerSearchByInvalidNInumber" duration-ms="5117" started-at="2022-11-29T11:53:10Z" finished-at="2022-11-29T11:53:15Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -268,18 +388,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWorkerSearchByInvalidNInumber -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="144" started-at="2022-11-27T18:29:24Z" finished-at="2022-11-27T18:29:25Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="154" started-at="2022-11-29T11:53:15Z" finished-at="2022-11-29T11:53:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWorkerSearchByInvalidNInumber status=SUCCESS method=WorkerTest.verifyWorkerSearchByInvalidNInumber()[pri:8, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyWorkerSearchByInvalidNInumber status=SUCCESS method=WorkerTest.verifyWorkerSearchByInvalidNInumber()[pri:7, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="initialization" is-config="true" duration-ms="3674" started-at="2022-11-27T18:29:25Z" finished-at="2022-11-27T18:29:28Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="initialization" is-config="true" duration-ms="3581" started-at="2022-11-29T11:53:31Z" finished-at="2022-11-29T11:53:34Z">
           <params>
             <param index="0">
               <value>
@@ -290,7 +410,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyWorkerSearchByinvalidpostcode()[pri:9, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="verifyWorkerSearchByinvalidpostcode" duration-ms="5018" started-at="2022-11-27T18:29:28Z" finished-at="2022-11-27T18:29:33Z">
+        <test-method status="PASS" signature="verifyWorkerSearchByinvalidpostcode()[pri:8, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="verifyWorkerSearchByinvalidpostcode" duration-ms="4885" started-at="2022-11-29T11:53:34Z" finished-at="2022-11-29T11:53:39Z">
           <reporter-output>
             <line>
               <![CDATA[Login Success]]>
@@ -300,11 +420,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWorkerSearchByinvalidpostcode -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="138" started-at="2022-11-27T18:29:33Z" finished-at="2022-11-27T18:29:33Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.WorkerTest@d706f19]" name="tearDown" is-config="true" duration-ms="138" started-at="2022-11-29T11:53:39Z" finished-at="2022-11-29T11:53:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWorkerSearchByinvalidpostcode status=SUCCESS method=WorkerTest.verifyWorkerSearchByinvalidpostcode()[pri:9, instance:com.obsqura.Testscripts.WorkerTest@12d4bf7e] output=Login Success]]]>
+                <![CDATA[[TestResult name=verifyWorkerSearchByinvalidpostcode status=SUCCESS method=WorkerTest.verifyWorkerSearchByinvalidpostcode()[pri:8, instance:com.obsqura.Testscripts.WorkerTest@d706f19] output=Login Success]]]>
               </value>
             </param>
           </params>
@@ -312,6 +432,734 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.obsqura.Testscripts.WorkerTest -->
-    </test> <!-- chromebrowser -->
+      <class name="com.obsqura.Testscripts.ClientTest">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3523" started-at="2022-11-29T11:50:40Z" finished-at="2022-11-29T11:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyClientCreation()[pri:1, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyClientCreation" duration-ms="7932" started-at="2022-11-29T11:50:44Z" finished-at="2022-11-29T11:50:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to client Page]]>
+            </line>
+            <line>
+              <![CDATA[client created Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClientCreation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="88" started-at="2022-11-29T11:50:52Z" finished-at="2022-11-29T11:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClientCreation status=SUCCESS method=ClientTest.verifyClientCreation()[pri:1, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3596" started-at="2022-11-29T11:51:07Z" finished-at="2022-11-29T11:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyclientSearchByName()[pri:2, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyclientSearchByName" duration-ms="4794" started-at="2022-11-29T11:51:11Z" finished-at="2022-11-29T11:51:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyclientSearchByName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="87" started-at="2022-11-29T11:51:16Z" finished-at="2022-11-29T11:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyclientSearchByName status=SUCCESS method=ClientTest.verifyclientSearchByName()[pri:2, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3594" started-at="2022-11-29T11:51:29Z" finished-at="2022-11-29T11:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyclientSearchByNo()[pri:3, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyclientSearchByNo" duration-ms="4834" started-at="2022-11-29T11:51:33Z" finished-at="2022-11-29T11:51:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by number]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyclientSearchByNo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="83" started-at="2022-11-29T11:51:38Z" finished-at="2022-11-29T11:51:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyclientSearchByNo status=SUCCESS method=ClientTest.verifyclientSearchByNo()[pri:3, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3646" started-at="2022-11-29T11:51:53Z" finished-at="2022-11-29T11:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyclientSearchByNameNumber()[pri:4, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyclientSearchByNameNumber" duration-ms="4953" started-at="2022-11-29T11:51:57Z" finished-at="2022-11-29T11:52:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by Name & number]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyclientSearchByNameNumber -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="101" started-at="2022-11-29T11:52:02Z" finished-at="2022-11-29T11:52:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyclientSearchByNameNumber status=SUCCESS method=ClientTest.verifyclientSearchByNameNumber()[pri:4, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3539" started-at="2022-11-29T11:52:17Z" finished-at="2022-11-29T11:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyClientResetwithName()[pri:5, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyClientResetwithName" duration-ms="3347" started-at="2022-11-29T11:52:21Z" finished-at="2022-11-29T11:52:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Name Reset Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClientResetwithName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="147" started-at="2022-11-29T11:52:24Z" finished-at="2022-11-29T11:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClientResetwithName status=SUCCESS method=ClientTest.verifyClientResetwithName()[pri:5, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3495" started-at="2022-11-29T11:52:36Z" finished-at="2022-11-29T11:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyClientResetwithNo()[pri:6, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyClientResetwithNo" duration-ms="3238" started-at="2022-11-29T11:52:40Z" finished-at="2022-11-29T11:52:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Client Number Reset Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClientResetwithNo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="152" started-at="2022-11-29T11:52:43Z" finished-at="2022-11-29T11:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClientResetwithNo status=SUCCESS method=ClientTest.verifyClientResetwithNo()[pri:6, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3507" started-at="2022-11-29T11:52:57Z" finished-at="2022-11-29T11:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyclientSearchByinvalidNo()[pri:7, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="verifyclientSearchByinvalidNo" duration-ms="4863" started-at="2022-11-29T11:53:00Z" finished-at="2022-11-29T11:53:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Searched Succesfully by number]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyclientSearchByinvalidNo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="150" started-at="2022-11-29T11:53:05Z" finished-at="2022-11-29T11:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyclientSearchByinvalidNo status=SUCCESS method=ClientTest.verifyclientSearchByinvalidNo()[pri:7, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="initialization" is-config="true" duration-ms="3529" started-at="2022-11-29T11:53:22Z" finished-at="2022-11-29T11:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="validateclientSearchByNo()[pri:8, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="validateclientSearchByNo" duration-ms="4836" started-at="2022-11-29T11:53:26Z" finished-at="2022-11-29T11:53:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Validation Message Shows Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateclientSearchByNo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.ClientTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="143" started-at="2022-11-29T11:53:31Z" finished-at="2022-11-29T11:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateclientSearchByNo status=SUCCESS method=ClientTest.validateclientSearchByNo()[pri:8, instance:com.obsqura.Testscripts.ClientTest@65d6b83b] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.Testscripts.ClientTest -->
+      <class name="com.obsqura.Testscripts.HomepageTest">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="8315" started-at="2022-11-29T11:50:08Z" finished-at="2022-11-29T11:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyValidLogin" duration-ms="2424" started-at="2022-11-29T11:50:16Z" data-provider="Logindata" finished-at="2022-11-29T11:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="180" started-at="2022-11-29T11:50:18Z" finished-at="2022-11-29T11:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=HomepageTest.verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3618" started-at="2022-11-29T11:50:19Z" finished-at="2022-11-29T11:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifycreateDeduction()[pri:1, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifycreateDeduction" duration-ms="18005" started-at="2022-11-29T11:50:22Z" finished-at="2022-11-29T11:50:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Deduction Created Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifycreateDeduction -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="311" started-at="2022-11-29T11:50:40Z" finished-at="2022-11-29T11:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycreateDeduction status=SUCCESS method=HomepageTest.verifycreateDeduction()[pri:1, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3584" started-at="2022-11-29T11:51:01Z" finished-at="2022-11-29T11:51:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="VerifyLogout()[pri:2, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="VerifyLogout" duration-ms="3107" started-at="2022-11-29T11:51:04Z" finished-at="2022-11-29T11:51:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogout -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="83" started-at="2022-11-29T11:51:07Z" finished-at="2022-11-29T11:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLogout status=SUCCESS method=HomepageTest.VerifyLogout()[pri:2, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3459" started-at="2022-11-29T11:51:25Z" finished-at="2022-11-29T11:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyResetLink()[pri:3, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyResetLink" duration-ms="793" started-at="2022-11-29T11:51:28Z" finished-at="2022-11-29T11:51:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Password Link Navigated Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyResetLink -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="160" started-at="2022-11-29T11:51:29Z" finished-at="2022-11-29T11:51:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResetLink status=SUCCESS method=HomepageTest.verifyResetLink()[pri:3, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Reset Password Link Navigated Successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3540" started-at="2022-11-29T11:51:48Z" finished-at="2022-11-29T11:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:4, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyInvalidLogin" duration-ms="1095" started-at="2022-11-29T11:51:52Z" data-provider="InvalidLogindata" finished-at="2022-11-29T11:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="87" started-at="2022-11-29T11:51:53Z" finished-at="2022-11-29T11:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=HomepageTest.verifyInvalidLogin(java.lang.String, java.lang.String)[pri:4, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Failed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3583" started-at="2022-11-29T11:52:10Z" finished-at="2022-11-29T11:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyTimesheetPayslipGeneration()[pri:5, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyTimesheetPayslipGeneration" duration-ms="3284" started-at="2022-11-29T11:52:14Z" finished-at="2022-11-29T11:52:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Payslip Generated Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTimesheetPayslipGeneration -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="142" started-at="2022-11-29T11:52:17Z" finished-at="2022-11-29T11:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTimesheetPayslipGeneration status=SUCCESS method=HomepageTest.verifyTimesheetPayslipGeneration()[pri:5, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3516" started-at="2022-11-29T11:52:31Z" finished-at="2022-11-29T11:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyResetCancel(java.lang.String)[pri:6, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyResetCancel" duration-ms="1457" started-at="2022-11-29T11:52:35Z" data-provider="emailDetail" finished-at="2022-11-29T11:52:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carolxyzs@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Password Cancelled Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyResetCancel -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="157" started-at="2022-11-29T11:52:36Z" finished-at="2022-11-29T11:52:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResetCancel status=SUCCESS method=HomepageTest.verifyResetCancel(java.lang.String)[pri:6, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Reset Password Cancelled Succesfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="4000" started-at="2022-11-29T11:52:52Z" finished-at="2022-11-29T11:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyBlankUsernamePassword()[pri:7, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyBlankUsernamePassword" duration-ms="921" started-at="2022-11-29T11:52:56Z" finished-at="2022-11-29T11:52:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankUsernamePassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="154" started-at="2022-11-29T11:52:57Z" finished-at="2022-11-29T11:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBlankUsernamePassword status=SUCCESS method=HomepageTest.verifyBlankUsernamePassword()[pri:7, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Failed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3828" started-at="2022-11-29T11:53:15Z" finished-at="2022-11-29T11:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyInvoicePage()[pri:8, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyInvoicePage" duration-ms="3087" started-at="2022-11-29T11:53:19Z" finished-at="2022-11-29T11:53:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Invoice Page Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvoicePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="143" started-at="2022-11-29T11:53:22Z" finished-at="2022-11-29T11:53:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvoicePage status=SUCCESS method=HomepageTest.verifyInvoicePage()[pri:8, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3599" started-at="2022-11-29T11:53:39Z" finished-at="2022-11-29T11:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyInvalidEmailValidation(java.lang.String)[pri:9, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyInvalidEmailValidation" duration-ms="972" started-at="2022-11-29T11:53:43Z" data-provider="emailDetail" finished-at="2022-11-29T11:53:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carolxyzs@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Validation SHows Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailValidation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="148" started-at="2022-11-29T11:53:44Z" finished-at="2022-11-29T11:53:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidEmailValidation status=SUCCESS method=HomepageTest.verifyInvalidEmailValidation(java.lang.String)[pri:9, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Validation SHows Succesfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3505" started-at="2022-11-29T11:53:44Z" finished-at="2022-11-29T11:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyDashboardLink()[pri:10, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyDashboardLink" duration-ms="3023" started-at="2022-11-29T11:53:48Z" finished-at="2022-11-29T11:53:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard Menu Working Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardLink -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="142" started-at="2022-11-29T11:53:51Z" finished-at="2022-11-29T11:53:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDashboardLink status=SUCCESS method=HomepageTest.verifyDashboardLink()[pri:10, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="4043" started-at="2022-11-29T11:53:51Z" finished-at="2022-11-29T11:53:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyInvoicePageLink()[pri:11, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyInvoicePageLink" duration-ms="3075" started-at="2022-11-29T11:53:55Z" finished-at="2022-11-29T11:53:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Invoice Page Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvoicePageLink -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="138" started-at="2022-11-29T11:53:58Z" finished-at="2022-11-29T11:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvoicePageLink status=SUCCESS method=HomepageTest.verifyInvoicePageLink()[pri:11, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3534" started-at="2022-11-29T11:53:58Z" finished-at="2022-11-29T11:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyrestLogo()[pri:12, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyrestLogo" duration-ms="828" started-at="2022-11-29T11:54:02Z" finished-at="2022-11-29T11:54:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo Is present in resetPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyrestLogo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="186" started-at="2022-11-29T11:54:02Z" finished-at="2022-11-29T11:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyrestLogo status=SUCCESS method=HomepageTest.verifyrestLogo()[pri:12, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Logo Is present in resetPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="initialization" is-config="true" duration-ms="3652" started-at="2022-11-29T11:54:03Z" finished-at="2022-11-29T11:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyDashboardLogo()[pri:13, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="verifyDashboardLogo" duration-ms="2302" started-at="2022-11-29T11:54:06Z" finished-at="2022-11-29T11:54:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Logo Is present in Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardLogo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.obsqura.Testscripts.HomepageTest@45018215]" name="tearDown" is-config="true" duration-ms="167" started-at="2022-11-29T11:54:09Z" finished-at="2022-11-29T11:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDashboardLogo status=SUCCESS method=HomepageTest.verifyDashboardLogo()[pri:13, instance:com.obsqura.Testscripts.HomepageTest@45018215] output=Login Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.Testscripts.HomepageTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

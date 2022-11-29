@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.obsqura.utilities.PageUtility;
 import com.obsqura.utilities.WaitUtility;
 
 public class PayrollHome {
@@ -35,6 +36,10 @@ public class PayrollHome {
 	
 	@FindBy(xpath = "/html/body/header/div[2]/div/div/nav/div/div[2]/ul/li[6]/a")
 	WebElement timesheetlink;
+	
+	
+	@FindBy(xpath = "/html/body/section/div/div/div[1]/ul/li[3]/a")
+	WebElement createtimesheetlink;
 	@FindBy(xpath = "/html/body/section/div/div/div[3]/h1")
 	WebElement resetpassword;
 	@FindBy(xpath = "/html/body/header/div[2]/div/div/nav/div/div[2]/ul/li[8]/a")
@@ -43,7 +48,10 @@ public class PayrollHome {
 	WebElement dashboardlink;
 	@FindBy(xpath = "/html/body/header/div[1]/div/div[1]/img")
 	WebElement homelogo;
-	
+	@FindBy(xpath="/html/body/section/div/div/div[2]/form/div[2]/button")
+	WebElement skipToCreatePage;
+	@FindBy(xpath="/html/body/header/div[2]/div/div/nav/div/div[2]/ul/li[2]/a")
+	WebElement companylink;
 	public PayrollHome(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -108,6 +116,9 @@ public class PayrollHome {
 	public void navigateTimesheet() {
 		timesheetlink.click();
 	}
+	public void navigateCreateTimesheet() {
+		createtimesheetlink.click();
+	}
 	
 	public String resetMessage() {
 		waitUtility.waitforanelement(resetpassword, driver);
@@ -119,4 +130,12 @@ public boolean verifylogo() {
 		boolean imagePresent = homelogo.isDisplayed();
 		return imagePresent;
 	}
+public String clickSkipToCreate() {
+	skipToCreatePage.click();
+	String msg = PageUtility.AlertHandling(driver);
+	return msg;
+}
+public void navigateToCompany() {
+	companylink.click();
+}
 }

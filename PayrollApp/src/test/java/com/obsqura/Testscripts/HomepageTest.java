@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 import com.obsqura.constants.PayrollConstant;
 import com.obsqura.pages.LogOut;
 import com.obsqura.pages.PayrollAddDeduction;
+import com.obsqura.pages.PayrollCompany;
 import com.obsqura.pages.PayrollHome;
 import com.obsqura.pages.PayrollInvoice;
 import com.obsqura.pages.PayrollLogin;
@@ -25,7 +26,7 @@ import com.obsqura.pages.ResetPassword;
 import com.obsqura.pages.ViewDeduction;
 import com.obsqura.utilities.ExcelDataProvider;
 
-@Listeners(ExtentReportUtil.class)
+
 public class HomepageTest extends TestHelper {
 
 	String loginFilepath = "\\src\\test\\resources\\com\\obsqura\\testdata\\Logincredentials.xlsx";
@@ -38,7 +39,7 @@ public class HomepageTest extends TestHelper {
 	ResetPassword resetobj;
 	PayrollTimesheet timesheetobj;
 	PayrollInvoice invoiceobj;
-
+	PayrollCompany companyobj;
 	@BeforeMethod
 	@Parameters({ "browser" })
 	public void initialization(String browser) {
@@ -201,6 +202,7 @@ public class HomepageTest extends TestHelper {
 		Assert.assertEquals(actualHeading, expectedHeading);
 		Reporter.log("Navigated to Invoice Page Successfully", true);
 	}
+	
 
 	@Test(priority = 9, dataProvider = "emailDetail")
 	public void verifyInvalidEmailValidation(String eMail) throws InterruptedException, IOException {
@@ -227,8 +229,24 @@ public class HomepageTest extends TestHelper {
 		Reporter.log("Dashboard Menu Working Successfully", true);
 
 	}
-
 	@Test(priority = 11)
+	public void verifyInvoicePageLink() throws InterruptedException, IOException {
+		loginobj = new PayrollLogin(driver);
+		loginobj.login("carol", "1q2w3e4r");
+		payrollhome = new PayrollHome(driver);
+		String loginActualmsg = payrollhome.welcomeMessage();
+		String loginExpectedmsg = PayrollConstant.HOMEPAGEHEADING;
+		Assert.assertEquals(loginActualmsg, loginExpectedmsg);
+		Reporter.log("Login Success", true);
+		payrollhome.navigatetoinvoice();
+		invoiceobj = new PayrollInvoice(driver);
+		String expectedHeading = PayrollConstant.INVOICEHEADING;
+		String actualHeading = invoiceobj.invoicemsg();
+		Assert.assertEquals(actualHeading, expectedHeading);
+		Reporter.log("Navigated to Invoice Page Successfully", true);
+	}
+
+	@Test(priority = 12)
 	public void verifyrestLogo() throws InterruptedException, IOException {
 
 		loginobj = new PayrollLogin(driver);
@@ -239,7 +257,7 @@ public class HomepageTest extends TestHelper {
 		Reporter.log("Logo Is present in resetPage", true);
 	}
 
-	@Test(priority = 12)
+	@Test(priority = 13)
 	public void verifyDashboardLogo() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -253,7 +271,5 @@ public class HomepageTest extends TestHelper {
 		Reporter.log("Logo Is present in Home Page", true);
 
 	}
-	public void verifyUserIsAbleToSkipFileUploadInTimeSheet() {
-		
-	}
+	
 }

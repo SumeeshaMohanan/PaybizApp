@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.obsqura.Testscripts.ExtentReportUtil"/>
-  </listeners>
   <test thread-count="5" name="chromebrowser(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.obsqura.Testscripts.HomepageTest">
         <methods>
-          <include name="verifyInvalidEmailValidation" invocation-numbers="0"/>
+          <include name="verifyCompanyLink"/>
           <include name="tearDown"/>
           <include name="initialization"/>
         </methods>

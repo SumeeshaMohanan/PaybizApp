@@ -20,7 +20,7 @@ import com.obsqura.pages.ViewSearchWorker;
 import com.obsqura.pages.WorkerBankDetails;
 import com.obsqura.pages.WorkerBankhome;
 
-@Listeners(ExtentReportUtil.class)
+
 public class WorkerTest extends TestHelper {
 	String timeStamp =new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss").format(new Date());
 	PayrollLogin loginobj;
@@ -36,35 +36,9 @@ public class WorkerTest extends TestHelper {
 	public void initialization(String browser) {
 		driver = browserLaunch(browser);
 	}
-/*
-	@Test(priority = 1, groups = "regression")
-	public void verifyWorkerCreation() throws InterruptedException, IOException {
 
-		loginobj = new PayrollLogin(driver);
-		loginobj.login("carol", "1q2w3e4r");
-		payrollhome = new PayrollHome(driver);
-		String loginActualmsg = payrollhome.welcomeMessage();
-		String loginExpectedmsg = PayrollConstant.HOMEPAGEHEADING;
-		Assert.assertEquals(loginActualmsg, loginExpectedmsg);
-		Reporter.log("Login Success", true);
-		payrollhome.navigatetoaddWorker();
-		Reporter.log("Navigated to Worker Page", true);
-		createWorkerObj = new PayrollCreateWorker(driver);
-		createWorkerObj.createWorker("Mrs", "Anjusha"+timeStamp, "aa", "Anju", "8", "85", "email", "middlename", "Male",
-				"12-10-2000", "address1", "address2", "address3", "689966", "Alpha_new", "NewAlpha", " Paye",
-				"Electronic", "Paye", "ZBC456");
-		workerhome = new WorkerBankhome(driver);
 
-		String workeractualmsg = workerhome.checkWorkerMessage();
-		String workerexpectedmsg = PayrollConstant.WORKERBANKHEADING;
-		Assert.assertEquals(workeractualmsg, workerexpectedmsg);
-		Reporter.log("Worker Created Successfully", true);
-		//bankDetails = new WorkerBankDetails(driver);
-		//bankDetails.bankDetails("Cheque", "Bank", "Anjusha"+timeStamp, "1254", "520520", "12/10/2021", "UK", "SBI", "London");
-
-	}*/
-
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void verifyworkerDeletion() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -79,7 +53,7 @@ public class WorkerTest extends TestHelper {
 		Reporter.log("Deleted Succesfully", true);
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void verifyWorkerSearchByFName() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -98,7 +72,7 @@ public class WorkerTest extends TestHelper {
 		Reporter.log("Searched Succesfully by WorkerName ", true);
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 3)
 	public void verifyWorkerSearchBypost() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -117,7 +91,7 @@ public class WorkerTest extends TestHelper {
 		Reporter.log("Searched Succesfully by Postcode", true);
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 4)
 	public void verifyWorkerSearchByNINumber() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -136,7 +110,7 @@ public class WorkerTest extends TestHelper {
 		Reporter.log("Searched Succesfully by NI Number", true);
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 5)
 	public void verifyWorkerResetwithName() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -155,7 +129,7 @@ public class WorkerTest extends TestHelper {
 		Reporter.log("Reset Name Textbox Succesfully", true);
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 6)
 	public void verifyWorkerSearchByInvalidFName() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -174,7 +148,7 @@ public class WorkerTest extends TestHelper {
 		Reporter.log("Searched Succesfully by WorkerName ", true);
 	}
 
-	@Test(priority = 8)
+	@Test(priority = 7)
 	public void verifyWorkerSearchByInvalidNInumber() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");
@@ -193,7 +167,7 @@ public class WorkerTest extends TestHelper {
 		Reporter.log("Searched Succesfully by Worker NINumber ", true);
 	}
 
-	@Test(priority = 9)
+	@Test(priority = 8)
 	public void verifyWorkerSearchByinvalidpostcode() throws InterruptedException, IOException {
 		loginobj = new PayrollLogin(driver);
 		loginobj.login("carol", "1q2w3e4r");

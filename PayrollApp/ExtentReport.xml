@@ -4,10 +4,10 @@
 <listeners>
 <listener class-name="com.obsqura.Testscripts.ExtentReportUtil"/>
 </listeners>
-  <test thread-count="5" name="Test"  >
+  <test thread-count="5" name="Test" parallel="tests" >
   <parameter name="browser" value="chrome"/>
    <classes>
-    <class name="com.obsqura.Testscripts.HomepageTest"/>
+  <class name="com.obsqura.Testscripts.HomepageTest"/>
    <class name="com.obsqura.Testscripts.ClientTest"/>
       <class name="com.obsqura.Testscripts.WorkerTest"/>
        
